@@ -19,8 +19,8 @@ def ReadFemResp(dct_file='2002FemResp.dct',
                 nrows=None):
     """Reads the NSFG respondent data.
 
-    dct_file: string file name
-    dat_file: string file name
+    dct_file: string file name -- Contains details about format of data
+    dat_file: string file name -- Contains data in plain text ASCII
 
     returns: DataFrame
     """
